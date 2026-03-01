@@ -1,9 +1,10 @@
 {
-	"format_version": "1.21.11",
+	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "inked:item/gent_pipe"
+		"0": "inked:item/gent_pipe",
+		"particle": "inked:item/gent_pipe"
 	},
 	"elements": [
 		{
@@ -46,9 +47,9 @@
 			}
 		},
 		{
-			"from": [6.85, 15.175, 6],
-			"to": [9.2, 17.525, 6.55],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.3, 5.45]},
+			"from": [6.85, 15.175, 6.2],
+			"to": [9.2, 17.525, 6.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.3, 5.65]},
 			"faces": {
 				"north": {"uv": [2.5, 6, 3.75, 7.25], "texture": "#0"},
 				"east": {"uv": [6, 9, 6.25, 10.25], "texture": "#0"},
@@ -85,9 +86,9 @@
 			}
 		},
 		{
-			"from": [6.975, 14.45, 12.125],
-			"to": [9.025, 15.625, 14.125],
-			"rotation": {"angle": -18.75, "axis": "x", "origin": [8, 5.725, 13.125]},
+			"from": [6.975, 14.45, 12.725],
+			"to": [9.025, 15.625, 14.725],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 5.725, 13.725]},
 			"faces": {
 				"north": {"uv": [3.5, 5.5, 4.5, 6], "texture": "#0"},
 				"east": {"uv": [9, 6, 10, 6.5], "texture": "#0"},
@@ -124,9 +125,9 @@
 			}
 		},
 		{
-			"from": [6.975, 15.3, 6.55],
-			"to": [9.025, 17.35, 8.525],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.925, 7.25]},
+			"from": [6.975, 15.4, 6.65],
+			"to": [9.025, 17.45, 8.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.025, 7.35]},
 			"faces": {
 				"north": {"uv": [8, 5.5, 9, 6.5], "texture": "#0"},
 				"east": {"uv": [8, 6.5, 9, 7.5], "texture": "#0"},
@@ -150,9 +151,9 @@
 			}
 		},
 		{
-			"from": [7, 18.775, 18.175],
-			"to": [9, 21.825, 19.85],
-			"rotation": {"x": -51.25, "y": 0, "z": 0, "origin": [8, 7.775, 18.85]},
+			"from": [7, 17.775, 17.175],
+			"to": [9, 20.825, 18.85],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 6.775, 17.85]},
 			"faces": {
 				"north": {"uv": [1.5, 7, 2.5, 8.5], "texture": "#0"},
 				"east": {"uv": [7, 5.5, 7.75, 7], "texture": "#0"},
