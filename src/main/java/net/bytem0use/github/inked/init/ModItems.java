@@ -2,6 +2,7 @@ package net.bytem0use.github.inked.init;
 
 import net.bytem0use.github.inked.InkLegacy;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,7 +17,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> GENT_PIPE = ITEMS.register("gent_pipe",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new SwordItem(ModToolTiers.INK, 2, 1, new Item.Properties()));
 
 
 

@@ -2,6 +2,7 @@ package net.bytem0use.github.inked.init;
 
 import net.bytem0use.github.inked.InkLegacy;
 import net.bytem0use.github.inked.block.BendyCutoutBlock;
+import net.bytem0use.github.inked.block.BendyPlushBlock;
 import net.bytem0use.github.inked.block.InkedChairBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -24,6 +25,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BENDY_CUTOUT = registerBlock("bendy_cutout",
             () -> new BendyCutoutBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()));
+
+    public static final RegistryObject<Block> BENDY_PLUSH = registerBlock("bendy_plush",
+            () -> new BendyPlushBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

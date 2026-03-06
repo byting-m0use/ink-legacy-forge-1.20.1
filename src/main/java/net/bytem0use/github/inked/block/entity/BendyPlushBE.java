@@ -5,9 +5,9 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class CustomBlockEntity extends BlockEntity {
+public class BendyPlushBE extends BlockEntity {
 
-    public CustomBlockEntity(BlockPos pPos, BlockState pBlockState) {
-        super(ModBlockEntities.INKED_CHAIR_BE.get(), pPos, pBlockState);
+    public BendyPlushBE(BlockPos pPos, BlockState pBlockState) {
+        super(ModBlockEntities.BENDY_PLUSH_BE.get(), pPos, pBlockState);
     }
 }

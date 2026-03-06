@@ -24,6 +24,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlockWithItem(ModBlocks.BENDY_CUTOUT.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/bendy_cutout")));
 
+        simpleBlockWithItem(ModBlocks.BENDY_PLUSH.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/bendy_plush")));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

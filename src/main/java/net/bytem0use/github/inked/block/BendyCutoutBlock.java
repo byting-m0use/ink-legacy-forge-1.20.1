@@ -1,5 +1,6 @@
 package net.bytem0use.github.inked.block;
 
+import net.bytem0use.github.inked.block.entity.BendyPlushBE;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.BaseEntityBlock;
@@ -20,7 +21,7 @@ public class BendyCutoutBlock extends BaseEntityBlock {
 
     @Override
     public @Nullable BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-        return null;
+        return new BendyPlushBE(blockPos, blockState);
     }
 
     @Override

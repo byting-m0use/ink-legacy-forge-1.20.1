@@ -1,6 +1,6 @@
 package net.bytem0use.github.inked.block;
 
-import net.bytem0use.github.inked.block.entity.CustomBlockEntity;
+import net.bytem0use.github.inked.block.entity.BendyPlushBE;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
@@ -38,14 +38,14 @@ public class InkedChairBlock extends BaseEntityBlock {
 
     @Override
     public @Nullable BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-        return new CustomBlockEntity(blockPos, blockState);
+        return new BendyPlushBE(blockPos, blockState);
     }
 
     @Override
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
         if (!pLevel.isClientSide()) {
             BlockEntity entity = pLevel.getBlockEntity(pPos);
-            if(entity instanceof CustomBlockEntity) {
+            if(entity instanceof BendyPlushBE) {
 
             } else {
 

@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.INKED_CHAIR.get());
                         pOutput.accept(ModBlocks.BENDY_CUTOUT.get());
+                        pOutput.accept(ModBlocks.BENDY_PLUSH.get());
 
                     })
                     .build());
